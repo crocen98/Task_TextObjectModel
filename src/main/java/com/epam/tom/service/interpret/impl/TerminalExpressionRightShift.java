@@ -1,7 +1,7 @@
 package com.epam.tom.service.interpret.impl;
 
-import com.epam.tom.service.interpret.Context;
 import com.epam.tom.service.interpret.BitExpression;
+import com.epam.tom.service.interpret.Context;
 
 public class TerminalExpressionRightShift implements BitExpression {
 
@@ -9,7 +9,7 @@ public class TerminalExpressionRightShift implements BitExpression {
     public void interpret(Context context) {
         Integer firstOperand = context.pop();
         Integer secondOperand = context.pop();
-        Integer result = firstOperand >> secondOperand;
+        Integer result = secondOperand >> firstOperand;
         context.push(result);
     }
 }

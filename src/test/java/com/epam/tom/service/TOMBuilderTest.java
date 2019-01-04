@@ -77,7 +77,6 @@ public class TOMBuilderTest {
         builder.append(pm12);
 
         TextComponent component = builder.getComponent();
-        System.out.println(component.getContent());
         Assert.assertEquals(testString,component.getContent());
 
     }

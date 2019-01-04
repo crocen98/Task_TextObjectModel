@@ -1,0 +1,48 @@
+2019-01-05 02:25:47.750 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: (8^5|1&2<<(2|5>>2&71))|1200
+2019-01-05 02:25:47.755 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - (8^5|1&2<<(2|5>>2&71))|1200 in polish natation: [8, 5, ^, 1, 2, 2, 5, 2, >>, 71, &, |, <<, &, |, 1200, |]
+2019-01-05 02:25:47.758 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: (8^5|1&2<<(2|5>>2&71))|1200 equals 1213
+2019-01-05 02:25:47.758 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: 6&9|(3&4)
+2019-01-05 02:25:47.759 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - 6&9|(3&4) in polish natation: [6, 9, &, 3, 4, &, |]
+2019-01-05 02:25:47.759 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: 6&9|(3&4) equals 0
+2019-01-05 02:25:47.759 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78
+2019-01-05 02:25:47.760 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78 in polish natation: [71, 2, 3, &, 3, 2, 1, 2, >>, &, 2, |, 2, &, |, |, 10, 2, &, |, &, 78, |]
+2019-01-05 02:25:47.761 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78 equals 79
+2019-01-05 02:25:47.762 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - (8^5|1&2<<(2|5>>2&71))|1200 in polish natation: [8, 5, ^, 1, 2, 2, 5, 2, >>, 71, &, |, <<, &, |, 1200, |]
+2019-01-05 02:25:47.765 [main] ERROR com.epam.tom.service.interpret.OperatorPriority - com.epam.tom.exception.NotSupportedOperatorException: Operator: * not support
+2019-01-05 02:25:47.769 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78
+2019-01-05 02:25:47.770 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78 in polish natation: [71, 2, 3, &, 3, 2, 1, 2, >>, &, 2, |, 2, &, |, |, 10, 2, &, |, &, 78, |]
+2019-01-05 02:25:47.771 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78 equals 79
+2019-01-05 02:25:47.771 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: (13>>2)
+2019-01-05 02:25:47.771 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - (13>>2) in polish natation: [13, 2, >>]
+2019-01-05 02:25:47.772 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: (13>>2) equals 3
+2019-01-05 02:25:47.781 [main] ERROR com.epam.tom.service.TOMBuilder - com.epam.tom.exception.IncorrectNestingException: Is impossible to add Lexeme{words=[]} to Paragraph{offers=[]}
+2019-01-05 02:25:47.781 [main] ERROR com.epam.tom.service.TOMBuilder - com.epam.tom.exception.IncorrectNestingException: Is impossible to add Lexeme{words=[]} to Paragraph{offers=[]}
+2019-01-05 02:25:47.785 [main] ERROR com.epam.tom.service.TOMBuilder - com.epam.tom.exception.IncorrectNestingException: Is impossible to add Paragraph{offers=[]} to Paragraph{offers=[]}
+2019-01-05 02:25:47.791 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: 13<<2
+2019-01-05 02:25:47.791 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - 13<<2 in polish natation: [13, 2, <<]
+2019-01-05 02:25:47.792 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: 13<<2 equals 52
+2019-01-05 02:25:47.792 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: 3>>5
+2019-01-05 02:25:47.793 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - 3>>5 in polish natation: [3, 5, >>]
+2019-01-05 02:25:47.793 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: 3>>5 equals 0
+2019-01-05 02:25:47.799 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: 6&9|(3&4)
+2019-01-05 02:25:47.800 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - 6&9|(3&4) in polish natation: [6, 9, &, 3, 4, &, |]
+2019-01-05 02:25:47.800 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: 6&9|(3&4) equals 0
+2019-01-05 02:25:47.811 [main] ERROR com.epam.tom.service.WordsSorterInOffer - com.epam.tom.exception.NotSupportedSortException: Cannot sort words in TOM for root item: LEXEME
+2019-01-05 02:25:47.813 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: 13<<2
+2019-01-05 02:25:47.813 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - 13<<2 in polish natation: [13, 2, <<]
+2019-01-05 02:25:47.813 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: 13<<2 equals 52
+2019-01-05 02:25:47.814 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: 3>>5
+2019-01-05 02:25:47.814 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - 3>>5 in polish natation: [3, 5, >>]
+2019-01-05 02:25:47.814 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: 3>>5 equals 0
+2019-01-05 02:25:47.815 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: 6&9|(3&4)
+2019-01-05 02:25:47.815 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - 6&9|(3&4) in polish natation: [6, 9, &, 3, 4, &, |]
+2019-01-05 02:25:47.815 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: 6&9|(3&4) equals 0
+2019-01-05 02:25:47.816 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: 5|(1&2&(3|(4&(2^5|6&47)|3)|2)|1)
+2019-01-05 02:25:47.817 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - 5|(1&2&(3|(4&(2^5|6&47)|3)|2)|1) in polish natation: [5, 1, 2, &, 3, 4, 2, 5, ^, 6, 47, &, |, &, 3, |, |, 2, |, &, 1, |, |]
+2019-01-05 02:25:47.817 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: 5|(1&2&(3|(4&(2^5|6&47)|3)|2)|1) equals 5
+2019-01-05 02:25:47.823 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78
+2019-01-05 02:25:47.824 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78 in polish natation: [71, 2, 3, &, 3, 2, 1, 2, >>, &, 2, |, 2, &, |, |, 10, 2, &, |, &, 78, |]
+2019-01-05 02:25:47.825 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: (71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78 equals 79
+2019-01-05 02:25:47.827 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Start calculate bitExpression: (8^5|1&2<<(2|5>>2&71))|1200
+2019-01-05 02:25:47.827 [main] INFO  com.epam.tom.service.interpret.ConverterToReversePolishNotation - (8^5|1&2<<(2|5>>2&71))|1200 in polish natation: [8, 5, ^, 1, 2, 2, 5, 2, >>, 71, &, |, <<, &, |, 1200, |]
+2019-01-05 02:25:47.827 [main] INFO  com.epam.tom.service.interpret.BitInterpreter - Expression: (8^5|1&2<<(2|5>>2&71))|1200 equals 1213
